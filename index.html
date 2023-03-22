@@ -5,21 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>My first page</title>
+    <style>
+        body {
+            background-color: RGB(139,69,19);
+        }
+        #name {
+            color: RGB(100,149,237);
+        }
+        #description {
+            color: grey;
+        }
+        .nacionalidade {
+            text-decoration:underline;
+        }
+        .cidade {
+            text-decoration: underline;
+        }
+        div {
+            display: inline;
+        }
+        .list_item {
+            font-size: 1.5em;
+        }
+    </style>
 </head>
 <body> 
     <figure>
         <img id="#pic" src="profile_pic.jpeg" width="300px" alt="picture">
-        <figcaption>Lázaro Guedes</figcaption>
+        <figcaption id="name">Lázaro Guedes</figcaption>
     </figure>
-    <p id="#descrição" style="width: 900px;">Olá! Tudo bem? Me chamo Lázaro. Sou um estudante de Densenvolvimento Web na Trybe, turma 32-b. Brasileiro nordestino, nascido e criado em Arapiraca, Alagoas,
+    <p id="description" style="width: 900px;">Olá! Tudo bem? Me chamo Lázaro. Sou um estudante de Densenvolvimento Web na Trybe, turma 32-b. <div class="nacionalidade">Brasileiro nordestino</div>, nascido e criado em <div class="cidade">Arapiraca, Alagoas</div>,
         pertinho de Maceió. Sou <b>fluente</b> na língua inglesa, proficiente no uso de Excel e um estudante ávido da área de Tecnologia. Pessoalmente, 
         gosto bastante das dicas de carreira do Lucas Montano, <a href="https://www.youtube.com/watch?v=nOFXkKgEamw" target="blank" style="text-decoration: underline; color: black;"> aqui</a>.
     </p>
    
     <ul>
         Links
-        <li><a href="#pic" style="text-decoration: none; color: black;">foto</a></li>
-        <li><a href="#descrição" style="text-decoration: none; color: black;">descrição</a></li>
+        <li class="list_item"><a href="#pic" style="text-decoration: none; color: black;">foto</a></li>
+        <li class="list_item"><a href="#descrição" style="text-decoration: none; color: black;">descrição</a></li>
 
     </ul>
 </body>
