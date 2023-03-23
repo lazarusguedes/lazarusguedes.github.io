@@ -1,0 +1,39 @@
+body {
+    background-color: RGB(139,69,19);
+}
+
+#name {
+    color: goldenrod;
+    font-size: x-large;
+}
+
+#description {
+    display: inline-block;
+    width:60vw;
+    padding-left: 2vw;
+}
+
+.nacionalidade {
+    text-decoration:underline;
+}
+
+.cidade {
+    text-decoration: underline;
+}
+
+.list_item {
+    font-size: 1.5em;
+}
+#image {
+    display: inline-block;
+    width: 16.25vw;
+    padding: 5px;
+    background-color: orange;
+}
+    
+
+#name {text-align: center;}
+
+.ímpar {
+    font-style: italic;
+}
