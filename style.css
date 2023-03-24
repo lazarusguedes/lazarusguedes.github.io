@@ -1,16 +1,17 @@
 body {
-    background-color: RGB(139,69,19);
+    background-color: RGB(245,222,179);
+    border: none;
 }
 
 #name {
-    color: goldenrod;
-    font-size: x-large;
+    font-style: italic;
 }
 
 #description {
     display: inline-block;
-    width:60vw;
+    width:17vw;
     padding-left: 2vw;
+    text-align: justify;
 }
 
 .nacionalidade {
@@ -21,19 +22,29 @@ body {
     text-decoration: underline;
 }
 
-.list_item {
-    font-size: 1.5em;
-}
 #image {
-    display: inline-block;
     width: 16.25vw;
-    padding: 5px;
-    background-color: orange;
+    padding: 3px 3px 0.1px;
+    background-color: RGB(222,184,135);
+    margin-bottom: 0.5vh;
 }
     
 
-#name {text-align: center;}
-
 .ímpar {
     font-style: italic;
+}
+
+.list {
+    position: absolute;
+    top:5vw
+}
+
+.list#links {
+    top: 32vw;
+    left: 1.5vw;
+}
+
+.list#skills {
+    top: 37vw;
+    left: 1.5vw;
 }
